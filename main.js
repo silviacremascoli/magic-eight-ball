@@ -1,10 +1,10 @@
-let userName = "";
+let userName = "Silvia";
 
-userName === "Jane" ? console.log("Hello, Jane!") : console.log("Hello!");
+userName ? console.log(`Hello, ${userName}!`) : console.log("Hello!");
 
-let userQuestion = "Will I ever be rich?";
+let userQuestion = `Will ${userName} ever be rich?`;
 
-console.log(`${userName}: ${userQuestion}`);
+console.log(userQuestion);
 
 let randomNumber = Math.floor(Math.random() * 8); // gives a random number between 0 and 7
 
